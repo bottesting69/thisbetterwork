@@ -1,5 +1,4 @@
-// Start the connection //
-var Client = require("mpp-client");
+var Client = require('mpp-client-xt');
 var MPP = new Client("wss://www.multiplayerpiano.com:443");
 var defaultRoom = "Void";
 var botName = "It works!";
